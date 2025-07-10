@@ -1,0 +1,39 @@
+Java 
+1) high level - closer to human language
+2) Class oriented 
+3) platform independent - "Write Once , run anywhere"
+
+OOPS Concepts :
+1) Class - Blueprint of object
+2) Object - Instance of class 
+3) constructor - special method to initialize an object
+4) Destructor - java doesn't actually have destructor like c++ , instead it has garbage collection , 
+5) Association
+6) Aggregation
+7) Composition
+8) Polymorphism
+9) Inheritance
+10) Abstraction
+11) Encapsulation
+12) Cohession
+13) Coupling
+
+
+History 
+1) Sun microsystem
+2) OAK
+3) JAVA ->Coffee Bean Name
+4) Jamesh Gosling
+5) 1996 sun microsystem -> oracle
+
+
+Java First Program
+1) Compile -> javac filename.java
+2) Run -> java classname
+3) Download and install Latest JDK Version
+4) Docs -> javadocs File Name
+
+Comment :
+1) Single Line Comment - //
+2) Multi Line Comment - /* -----*/
+3) Documentation comment - /** ------ */ 

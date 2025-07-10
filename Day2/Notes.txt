@@ -1,0 +1,58 @@
+Java types
+ 1) Java SE(Standard edition) - System based application
+ 2) Java EE(Enterprise Edition) - Web Applications 
+ 3) Java ME(Micro Edition/Mobile Edition/Minimalized edition) - To run on Embedded systems
+ 4) Java FX - Cross platform application developer
+
+
+JVM - Provides runtime environment (runs .class files)
+JRE(Java Runtime Environment) - JVM + java libraries -Runs the program 
+JDK(Java Development Kit) - JRE + dev tools(compiler,javadoc,debugger and etc..) - compiles the program
+
+
+JVM -Java Virtual Machine
+1) runs java bytecode(.class files) on any device or OS
+2) - we write .java files (java Code)
+   - compile -> creates .class file (bytecode)
+   - JVM reads bytecode and runs it on your machine
+   - like interpreter + executer
+3) Why Important 
+    1- Platform independent - JVM is available in windows , MacOS , Linux etc... . So .class file run on any OS that has JVM installed
+    2- Memory management - Garbage Collector (cleans unused memory)
+    3- Keeps in a secure environment
+    4- Performance Optimization - JVM has JIT(Just In Time Compiler) which converts byte code to machine code at runtime for faster performance
+4) JVM is not just a translator.
+Its a:
+- Manager (of memory)
+- Security guard (for unsafe code)
+- Garbage cleaner (via Garbage collector)
+- Speed booster (via JIT)
+- Runtime engine (for fulltime execution-runs the program)
+
+
+
+Comparison b/w JVM and other languages:
+
+     Java                    
+1) Compiles bytecode to machine code   -   Using JIT          
+2) Run the program - Runtime Execution engine
+3) Manages memory - Garbage collector
+4) Provides security - sandboxing , bytecode verifier
+5) Manages runtime - Stack,Heap,class Loading 
+6) Portability - "Write Once , Run anywhere"
+
+     Python
+1) Compile to bytecode - Python interpreter(.pyc files)
+2) Run the program - Python Virtual Machine (PVM)
+3) Memory management - Python Garbage collector
+4) Security - Medium(Memory safe but have no pointers, weak sandboxing & bytecode verification)
+5) Manages runtime - Handled by python interpreter
+6) Portability - can run on different OS using same interpreter
+    
+     C/C++
+1) Compile to machinecode - GCC/G++/Clang
+2) Run the program - on OS directly
+3) Memory management - manually(malloc/new) - Garbage collection is also not available - manually(free(),delete)
+4) Security - Very low 
+5) Portability - Code must be recompiled for each OS (Windows, Linux, etc.) 
+

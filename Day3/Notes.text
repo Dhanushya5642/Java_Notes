@@ -1,0 +1,40 @@
+See in java tutorial Oracle
+
+Basics of a Language:
+1. Keywords - More than 50 (52)
+    Char has 2 bytes
+    instanceof - tells which class this obj belongs to
+    volatile - to receive a data from external device
+2. Variables:
+    1) Instance variable - object
+    2) Class Variable - Static/Shared memory
+    3) Local Variable - blocks
+    4) Parameters - type of local variable
+can have char ,numbers , $ , _ 
+can start with char,$,_
+should not have nay spaces 
+MIN_VALUE |_ should be in capital , to store the final fixed value
+MAX_VALUE |
+
+Java supports Unicode characters -requires minimun 2 bytes , so byte datatype is discovered which has 1 byte only
+
+Garbage collector-GFirst Algorithm in v1.9 like resourse management in c++
+
+
+Class and objects:
+Student s1=new Studnet();
+int n1=10
+ 
+Data Types :
+
+    primitive dt:
+0 -byte -Byte - 1 byte - 8 bits - (-128 to 127) - (-2^7 to 2^7-1)
+0 -short -Short- 2 bytes - 16 bits - (-32768 to 32767) - (-2^15 to 2^15-1)
+0 int -Integer- 4 bytes - 32 Bits - (-2^31 to 2^31-1) ex:10
+0 -Long-long - 8 bytes - 64 bits - (-2^63 to 2^63-1) ex:10l
+0.0 -Float-float - 4 bytes - 32 bits ex:10.01f
+0.0 -Double-double - 8 bytes - 64 bits ->if you give 10.01 it is defaultly stored as double 
+
+char -Character->consumes 2 bytes of memory , becoz it follows Unicode Standard
+boolean -Boolean-> true , false ->0 or 1 is a integer value , so you cant give  0 or 1
+        ->by default it doesnt have any types 
