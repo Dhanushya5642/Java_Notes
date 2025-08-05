@@ -1,0 +1,42 @@
+   primitive              Wrapper classes 
+1) int                 Integer
+
+
+Autoboxing
+Unboxing
+
+Autoboxing:
+
+
+Type cast :
+Byte (to convert any dt to byte )- Byte.parseByte() , Byte.valueOf() 
+
+
+Convert to string :
+1) String s=""+var; // when string is concatinated it changed to string
+2) var.toString();
+
+
+BigInteger 
+BigDecimal
+
+
+IO classes :
+1) Reader / Writer -> Character  Based I/O
+2) 
+
+ All classes have this
+      DataReader/DataWriter
+
+      BufferedReader/BufferWriter - it can access any input like file, etc...
+      InputStreamReader -byte or char
+when the device is off
+This always throws an checked exception handled by JVM by
+UtilPackage
+1) Scanner class
+
+firts checks syntax error 
+class object error 
+
+
+>>>(triple right shift) whether it is signed or unsigned it consider as unsigned

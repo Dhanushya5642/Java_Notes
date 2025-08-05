@@ -1,0 +1,12 @@
+Derived Datatype:
+
+Arrays
+Normal:
+   int [] arr=new int[size];
+   float [] arr=new float[size];
+class:
+   Student [] arr=new Student[size];
+
+Arrays api java 
+1) CopyOf()
+2) Sort()

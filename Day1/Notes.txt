@@ -4,11 +4,19 @@ Java
 3) platform independent - "Write Once , run anywhere"
 
 OOPS Concepts :
-1) Class - Blueprint of object
-2) Object - Instance of class 
+1) Class - XX Blueprint of object XX 
+     user defined 
+     it has properties and behaviours
+2) Object - Instance of class - always map to the real time 
+Vehicle()
+Vehicle car=new Vehicle()
 3) constructor - special method to initialize an object
+->constructor cannot be static or file name - it can only be public , private or protected
+->if you create a object for class B , it will automatically create object for class A and execute constructor of both
+->if you call the parameterized constructor it will override the default constructor 
+->default constrctor is a package level access
 4) Destructor - java doesn't actually have destructor like c++ , instead it has garbage collection , 
-5) Association
+5) Association 
 6) Aggregation
 7) Composition
 8) Polymorphism
@@ -31,7 +39,9 @@ Java First Program
 1) Compile -> javac filename.java
 2) Run -> java classname
 3) Download and install Latest JDK Version
-4) Docs -> javadocs File Name
+4) Docs -> javadoc FileName
+5) class file in seperate folder ->javac -d .\destfilename sourcefileName
+6) docFile in seperate folder ->javadoc -d .\destFile sourceFile
 
 Comment :
 1) Single Line Comment - //

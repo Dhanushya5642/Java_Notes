@@ -1,0 +1,8 @@
+scanner class only support reading
+
+all the packages , files are in openjdk
+Writer classes:
+1)FileWriter has both write and append function - most preferred
+2)PrintWriter out=new PrintWriter() - has many functions 
+3)BufferedWriter 
+

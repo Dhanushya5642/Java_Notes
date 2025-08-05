@@ -20,7 +20,8 @@ JVM -Java Virtual Machine
     1- Platform independent - JVM is available in windows , MacOS , Linux etc... . So .class file run on any OS that has JVM installed
     2- Memory management - Garbage Collector (cleans unused memory)
     3- Keeps in a secure environment
-    4- Performance Optimization - JVM has JIT(Just In Time Compiler) which converts byte code to machine code at runtime for faster performance
+    4- Performance Optimization - JVM has JIT(Just In Time Compiler - Improved Performance at Runtime
+) which converts byte code to machine code at runtime for faster performance
 4) JVM is not just a translator.
 Its a:
 - Manager (of memory)
